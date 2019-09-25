@@ -1183,6 +1183,91 @@ p {
   }
 }
 
+/*index2*/
+/*section1*/
+h2{
+  color: white;
+  font-size: 350%;
+  font-weight: bold;
+  text-align: center;
+  margin: 7% 0% 7% 0%;
+}
+#index2-sec1{
+  background-color: black;
+  margin: 0% 5% 0%;
+  padding: 2% 0% 5% 0%;
+  border-radius: 10px;
+}
+#index2-sec1 img{
+  width: 90%;
+  height: 100%;
+  margin: 0% 0% 6%;
+
+}
+
+#index2-sec1 h3{
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+#index2-sec1 .fa-map-marked-alt,#index2-sec1 h6{
+  display: inline;
+  color: rgba(228, 52, 160, 0.733);  
+}
+#index2-sec1 p{
+  color: white;
+  opacity: 1;
+  margin-top: 3%;
+  margin-bottom: 6%;
+  font: 130% italic;
+
+}
+#index1-sec1-i i{
+  font-size: 190%;
+  color: white;  
+  border: solid 1px rgba(228, 52, 160, 0.733);
+  padding: 5% 8% 5% ;
+  border-radius: 80%
+}
+#index2-sec1-top{
+  margin-bottom: 4%
+}
+#index2-sec1-btn{
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 150%;
+padding: 5% 5%;
+}
+.hvr-sweep-to-right:before{
+  background-color: rgba(228, 52, 160, 0.733);
+}
 
 
 
+/* section2 */
+#index2-sec2{
+  background-color: black;
+  margin: 0% 5% 0%;
+  padding: 2% 1% 5% 0%;
+  border-radius: 10px;
+  width: 90%;
+
+}
+#index2-sec2 i{
+  color: rgba(228, 52, 160, 0.733);
+  font-size: 180%;
+  
+}
+#index2-sec2 h3{
+color: white;
+font-size: 220%;
+font-weight: 100;
+}
+
+#index2-sec2 .index2-sec2-div-black{
+background-color: gray;
+}
