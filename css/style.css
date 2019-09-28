@@ -27,7 +27,7 @@ li{list-style:none}
 html,body,main{ 
 	width:100%;
 	height:100%;
-	background:#111;
+	background:#0E0F10;
 }
 
 html{
@@ -1241,6 +1241,7 @@ h2{
   color: white;
   font-size: 150%;
 padding: 5% 5%;
+display: inline-block;
 }
 .hvr-sweep-to-right:before{
   background-color: rgba(228, 52, 160, 0.733);
@@ -1264,10 +1265,33 @@ padding: 5% 5%;
 }
 #index2-sec2 h3{
 color: white;
-font-size: 220%;
-font-weight: 100;
+font-size: 150%;
+font-weight: normal;
+
 }
 
-#index2-sec2 .index2-sec2-div-black{
-background-color: gray;
+#index2-sec2 .index2-sec2-div-word{
+background-color: #0e0f10;
+height: 120%;
+padding-top: 3%;
+border-radius: 10px;
+
 }
+#index2-sec2 .index2-sec2-div-word i{
+  margin: 10% 0% 0% 0%;
+}
+.hvr-rectangle-out::before{
+  background-color: black;
+}
+.index2-sec2-div-margin{
+  margin-top: 3%;
+  margin-bottom: 2%;
+
+}
+#index2-sec2 .index2-sec2-div-word::after{content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 55px;
+  background: black;}
