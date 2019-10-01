@@ -154,33 +154,45 @@ canvas{
 }
 
 
-/*///////////////////////////////////////////////////////////////////////////////////////////*/
-.icon-bar {
-  width: 90px;
-  background-color: rgba(0, 0, 0, 0.521);
-  padding:70px 10px;
-  height: 100%;
-  z-index: 9999999;
-}
+ /*///////////////////////////////////////////////////////////////////////////////////////////*/
+  .icon-bar{
 
-.icon-bar a {
-  display:block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
+  }
+   
+   .icon-bar a {
+     
+     text-align: center;
+     padding: 20px 0px;
+     transition: all 0.3s ease;
+     color: white;
+     font-size: 45px;
+     
+   }
+   
+   .icon-bar a:hover {
+     
+     color: rgba(228, 52, 160, 0.733);
+     
+   }
+   
+   .active {
+    color: rgba(228, 52, 160, 0.733);
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 45px;
+   }
 
-.icon-bar a:hover {
-  background-color: rgba(0, 0, 0, 0.801);
-  color: rgba(228, 52, 160, 0.733);
-}
+   .stnavcol{
+       height: 100%;
+       width: 100%;
+   }
+   .listy{
+       padding: 5px 0px ;
+       
+       
+   }
+   /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
-.active {
-  background-color: rgb(182, 163, 77);
-}
-/*///////////////////////////////////////////////////////////////////////////////////////////*/
 .wrapper {
   position: absolute;
   top: 20%;
