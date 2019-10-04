@@ -318,7 +318,6 @@ canvas {
 }
 
 
-<<<<<<< HEAD
 /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
 .icon-bar {
@@ -343,14 +342,14 @@ canvas {
     color: rgba(228, 52, 160, 0.733);
 }
 
-.active {
+.activ {
     background-color: rgb(182, 163, 77);
 }
 
 
 /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
-=======
+
  /*///////////////////////////////////////////////////////////////////////////////////////////*/
   .icon-bar{
 
@@ -372,7 +371,7 @@ canvas {
      
    }
    
-   .active {
+   .activ {
     color: rgba(228, 52, 160, 0.733);
     padding: 20px 0px;
     text-align: center;
@@ -390,7 +389,6 @@ canvas {
    }
    /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
->>>>>>> 5b183eb35bf348e00e837cebfde8d3e217914296
 .wrapper {
     position: absolute;
     top: 20%;
@@ -1589,12 +1587,6 @@ h2 {
     width: 500px;
     margin: auto;
 }
-<<<<<<< HEAD
-.item {
-    text-align: center;
-    line-height: 500px;
-}
-=======
 .index2-sec3-div i{
   padding: 3% 0%;
   font-size: 250%;
@@ -1603,6 +1595,57 @@ h2 {
   border-radius: 50%;
 }
 
+
+/* section4 */
+#index2-sec4 .item{
+    background-color: black;
+    padding: 9% 3% ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+#index2-sec4 img{
+    width: 110%;
+    height: 130%;
+}
+#index2-sec4 h3{
+    color: white;
+    font-size: 160%;
+    margin-bottom: 12%;
+}
+#index2-sec4 i{
+    color: rgba(228, 52, 160, 0.733);
+    font-size: 150%;
+}
+#index2-sec4 h5{
+    color: white;
+    font-size: 120%;
+    margin-top: 12%;
+    font-weight: 600;
+}
+
+/* section 5 */
+#index2-sec5 .hvr-float{
+    background-color: black;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 0% 4%;
+
+}
+#index2-sec5 i{
+    color: white;
+    background-color: #0E0F10;
+    font-size: 290%;
+    padding: 5%;
+    border-radius: 50%;
+    top: -18%;
+    position: absolute;
+    left: 42%;
+    margin: 0% 1%;
+}
+
+
+/* end index2 omar */
 
 /*////////////////////////////////////ruth///////////////////////////////////////////////////////*/
  .icon-bar1 a {
@@ -1669,4 +1712,3 @@ color:green;
    
    
 /*///////////////////////////////*/
->>>>>>> 5b183eb35bf348e00e837cebfde8d3e217914296
