@@ -192,6 +192,12 @@ canvas {
     display: block;
     /* vertical-align:bottom; */
 }
+.mar{
+    margin: 50px 0px;
+}
+.mar1{
+    margin: 0px 50px;
+}
 
 .hh1 {
     font-size: 70px;
@@ -214,6 +220,7 @@ canvas {
     font-weight: 300;
     font-size: 70px;
 }
+
 
 
 /* ---- particles.js container ---- */
@@ -318,76 +325,47 @@ canvas {
 }
 
 
-/*///////////////////////////////////////////////////////////////////////////////////////////*/
-
-.icon-bar {
-    width: 90px;
-    background-color: rgba(0, 0, 0, 0.521);
-    padding: 70px 10px;
-    height: 100%;
-    z-index: 9999999;
-}
-
-.icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 36px;
-}
-
-.icon-bar a:hover {
-    background-color: rgba(0, 0, 0, 0.801);
-    color: rgba(228, 52, 160, 0.733);
-}
-
-.activ {
-    background-color: rgb(182, 163, 77);
-}
 
 
-/*///////////////////////////////////////////////////////////////////////////////////////////*/
 
-
- /*///////////////////////////////////////////////////////////////////////////////////////////*/
+  /*///////////////////////////////////////////////////////////////////////////////////////////*/
   .icon-bar{
 
-  }
+}
+ 
+ .icon-bar a {
    
-   .icon-bar a {
-     
-     text-align: center;
-     padding: 20px 0px;
-     transition: all 0.3s ease;
-     color: white;
-     font-size: 45px;
-     
-   }
+   text-align: center;
+   padding: 20px 0px;
+   transition: all 0.3s ease;
+   color: white;
+   font-size: 45px;
    
-   .icon-bar a:hover {
-     
-     color: rgba(228, 52, 160, 0.733);
-     
-   }
+ }
+ 
+ .icon-bar a:hover {
    
-   .activ {
-    color: rgba(228, 52, 160, 0.733);
-    padding: 20px 0px;
-    text-align: center;
-    font-size: 45px;
-   }
+   color: rgba(228, 52, 160, 0.733);
+   
+ }
+ 
+ .active {
+  color: rgba(228, 52, 160, 0.733);
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 45px;
+ }
 
-   .stnavcol{
-       height: 100%;
-       width: 100%;
-   }
-   .listy{
-       padding: 5px 0px ;
-       
-       
-   }
-   /*///////////////////////////////////////////////////////////////////////////////////////////*/
+ .stnavcol{
+     height: 100%;
+     width: 100%;
+ }
+ .listy{
+     padding: 5px 0px ;
+     
+     
+ }
+ /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
 .wrapper {
     position: absolute;
@@ -1426,15 +1404,16 @@ p {
 
 /*index2*/
 
-
+/*/////////////////////////////////////////////////start omer////////////////////////////////////////////////////////*/
 /*section1*/
 
 h2 {
     color: white;
-    font-size: 350%;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
     margin: 7% 0% 7% 0%;
+    font-family: 'Abril Fatface', cursive;
 }
 
 #index2-sec1 {
@@ -1452,15 +1431,17 @@ h2 {
 
 #index2-sec1 h3 {
     color: white;
-    font-size: 200%;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 3%;
+    font-family: 'Philosopher', sans-serif;
 }
 
 #index2-sec1 .fa-map-marked-alt,
 #index2-sec1 h6 {
     display: inline;
     color: rgba(228, 52, 160, 0.733);
+    
 }
 
 #index2-sec1 p {
@@ -1468,7 +1449,8 @@ h2 {
     opacity: 1;
     margin-top: 3%;
     margin-bottom: 6%;
-    font: 130% italic;
+    font-size: 20px ;
+    font-family: 'Josefin Slab', serif;
 }
 
 #index1-sec1-i i {
@@ -1477,6 +1459,7 @@ h2 {
     border: solid 1px rgba(228, 52, 160, 0.733);
     padding: 5% 8% 5%;
     border-radius: 80%
+
 }
 
 #index2-sec1-top {
@@ -1491,12 +1474,32 @@ h2 {
     font-size: 150%;
     padding: 5% 5%;
     display: inline-block;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .hvr-sweep-to-right:before {
     background-color: rgba(228, 52, 160, 0.733);
+    border-radius: 10px; /* add by ahmed*/
+    padding: 5% 7%;
 }
 
+.char{
+    font-size: 20px;
+    height: 40px;
+    animation: an 1s ease-out 1 both;
+    display: inline-block;
+}
+
+@keyframes an{
+    from{
+        opacity: 0;
+        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    }
+    to{
+        opacity: 1;
+        transform: perspective(500px) translate3d(0, 0, 0);
+    }
+}
 
 /* section2 */
 
@@ -1511,12 +1514,14 @@ h2 {
 #index2-sec2 i {
     color: rgba(228, 52, 160, 0.733);
     font-size: 180%;
+    
 }
 
 #index2-sec2 h3 {
     color: white;
     font-size: 150%;
     font-weight: normal;
+    font-family: 'Philosopher', sans-serif;
 }
 
 #index2-sec2 .index2-sec2-div-word {
@@ -1561,14 +1566,17 @@ h2 {
 }
 
 .index2-sec3-div h3 {
-    font-size: 150%;
+    font-size: 35px;
     padding: 5% 0%;
     font-weight: 600;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .index2-sec3-div h4 {
-    font-size: 130%;
+    font-size: 20px;
     font-weight: 600;
+    font-family: 'Josefin Slab', serif;
+
 }
 
 .index2-sec3-div i {
@@ -1610,18 +1618,21 @@ h2 {
 }
 #index2-sec4 h3{
     color: white;
-    font-size: 160%;
+    font-size: 20px;
     margin-bottom: 12%;
+    font-family: 'Philosopher', sans-serif;
 }
 #index2-sec4 i{
     color: rgba(228, 52, 160, 0.733);
-    font-size: 150%;
+    font-size: 20px;
 }
 #index2-sec4 h5{
     color: white;
-    font-size: 120%;
+    font-size: 15px;
     margin-top: 12%;
     font-weight: 600;
+    font-family: 'Josefin Slab', serif;
+
 }
 
 /* section 5 */
@@ -1630,6 +1641,7 @@ h2 {
     border-radius: 10px;
     padding: 5%;
     margin: 0% 4%;
+    text-align: center;
 
 }
 #index2-sec5 i{
@@ -1643,7 +1655,45 @@ h2 {
     left: 42%;
     margin: 0% 1%;
 }
+.index-sec5-price-divp{
+    color: white;
+    opacity: 1;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    font: 280% ;
+    font-family: 'Josefin Slab', serif;
+}
+.index-sec5-but{
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 150%;
+    padding: 5% 5%;
+    display: inline-block;
+    margin:20px 0px 0px 0px ;
+    font-family: 'Philosopher', sans-serif;
+}
 
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #0e0f10 ; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgba(228, 52, 160, 0.733); 
+  }
+  
 
 /* end index2 omar */
 
