@@ -1484,8 +1484,8 @@ h2 {
 }
 
 .char{
-    font-size: 20px;
-    height: 40px;
+  
+    height: 20px;
     animation: an 1s ease-out 1 both;
     display: inline-block;
 }
