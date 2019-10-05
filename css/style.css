@@ -205,6 +205,7 @@ canvas {
     text-align: center;
     font-family: 'Roboto';
     font-weight: 300;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .pp1 {
@@ -247,6 +248,7 @@ canvas {
     font-weight: 300;
     font-size: 40px;
     padding-top: 40vh;
+	font-family: 'Abril Fatface', cursive;
 }
 
 .aa {
@@ -398,6 +400,7 @@ p {
     line-height: 24px;
     text-transform: uppercase;
     color: #eee;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .letter:before {
