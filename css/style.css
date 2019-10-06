@@ -1701,40 +1701,44 @@ h2 {
 /* end index2 omar */
 
 /*////////////////////////////////////ruth///////////////////////////////////////////////////////*/
- .icon-bar1 a {
+  .icon-bar1 a {
      
      text-align: center;
      padding: 20px 0px;
      transition: all 0.3s ease;
      color: white;
      font-size: 45px;
+	
+	 
+	 
      
    }
    
    .icon-bar1 a:hover {
      
-     color: green;
+     color:rgba(228, 52, 160, 0.733);
      
    }
    
    h1{
-  font-size:40px;
+  font-size:60px;
   color: white;
   text-align: center;
-  font-family:'Roboto';
+  font-family: cursive;
   font-weight:350;
   
 }
 
 .pp0{
-color:green;
+color:rgba(228, 52, 160, 0.733);
 	font-size:20px;
 }
 
 .ul2{
 	
   list-style-type:circle; 
-  font-size:16px;
+  font-family:Philosopher;
+  font-size:18px;
   color:white;
  
 }
@@ -1743,6 +1747,7 @@ color:green;
   background-color: #333;
   overflow: hidden;
   text-align:center;
+   border-radius:15px;
 }
 
 .topnav a {
@@ -1751,10 +1756,10 @@ color:green;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 .topnav a:hover {
-  background-color:green;
+  background-color: rgba(228, 52, 160, 0.733);
   color: black;
 }
 .topnav a.active {
