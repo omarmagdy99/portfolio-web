@@ -199,6 +199,10 @@ canvas {
     margin: 0px 50px;
 }
 
+.mar2{
+    margin: 0px 0px 0px 136px;
+}
+
 .hh1 {
     font-size: 70px;
     color: #ccc;
@@ -222,7 +226,17 @@ canvas {
     font-size: 70px;
 }
 
+.tecen{
+    text-align: center;
+}
 
+.borimg{
+    border-radius: 60px;
+    text-align: center;
+    
+    
+
+}
 
 /* ---- particles.js container ---- */
 
@@ -238,6 +252,7 @@ canvas {
 
 .row {
     margin: 0px;
+    
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
@@ -348,10 +363,11 @@ canvas {
  .icon-bar a:hover {
    
    color: rgba(228, 52, 160, 0.733);
+   text-decoration: none;
    
  }
  
- .active {
+ .active{
   color: rgba(228, 52, 160, 0.733);
   padding: 20px 0px;
   text-align: center;
@@ -367,6 +383,11 @@ canvas {
      
      
  }
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
  /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
 .wrapper {
@@ -1701,72 +1722,56 @@ h2 {
 /* end index2 omar */
 
 /*////////////////////////////////////ruth///////////////////////////////////////////////////////*/
-  .icon-bar1 a {
-     
-     text-align: center;
-     padding: 20px 0px;
-     transition: all 0.3s ease;
-     color: white;
-     font-size: 45px;
-	
-	 
-	 
-     
-   }
-   
-   .icon-bar1 a:hover {
-     
-     color:rgba(228, 52, 160, 0.733);
-     
-   }
-   
-   h1{
-  font-size:60px;
-  color: white;
-  text-align: center;
-  font-family: cursive;
-  font-weight:350;
-  
-}
+ 
 
-.pp0{
-color:rgba(228, 52, 160, 0.733);
-	font-size:20px;
-}
 
 .ul2{
 	
-  list-style-type:circle; 
+  border-radius: 10px;
   font-family:Philosopher;
   font-size:18px;
   color:white;
  
 }
+
+.nav-a{
+   
+    width: 180px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.808);
+    text-decoration: none;
+    border-radius: 45px;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+.nav-ul{
+    margin: 50px 0px ;
+    text-align: center;
+}
    
    	.topnav {
-  background-color: #333;
+  
   overflow: hidden;
   text-align:center;
    border-radius:15px;
 }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
-.topnav a:hover {
+
+
+.nav-a:hover {
   background-color: rgba(228, 52, 160, 0.733);
-  color: black;
-}
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  color: rgba(255, 255, 255, 0.808);
+  text-decoration: none;
+  animation-delay: 200ms;
+ 
 }
 
+
+.portcl{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
    
    
 /*///////////////////////////////*/
